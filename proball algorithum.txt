@@ -1,0 +1,13 @@
+
+fixture Week (wk) inc
+
+Loop through teams - with (A) inc
+
+	Loop through teams with (B) inc
+
+	If team A has NOT played Team B (search through team A played list for Team B)
+
+		Then: fixture wk  = Team A Vs Team B
+		add team B name to team A, played list
+		add team A name to team B, played list  
+	

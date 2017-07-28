@@ -1,0 +1,26 @@
+.clear {
+    clear: both;
+}
+
+#northLeague{
+  float: left;
+  color: red;
+  margin: 10px;
+}
+
+#southLeague {
+  margin: 10px;
+  float: left;
+}
+
+#fixturesTableNorth {
+  float: left;
+  margin: 10px;
+}
+
+#fixturesTableSouth {
+
+  float: left;
+  margin: 10px;
+  color: red;
+}
