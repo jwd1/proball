@@ -1,10 +1,23 @@
 var teamA;
 var teamB;
-
+var currentWeek = 0;
 var searchVar = 0;
 
+function nextTurn(){
 
-function nextTurn(nsFlag) {
+    currentWeek = currentWeek +=1;
+
+    for(var i=0;i < teamfixtures.length; +=i){
+        for(var n=0;n < teams.length; +=n){
+            team1 = teams[n]
+            
+        }
+    }
+
+}
+
+
+function displayLeague(nsFlag) {
   // nsflag = North south flag - was north or south league clicked
   var northTableHTML = "";
   var southTableHTML = "";
@@ -89,14 +102,14 @@ function fixtures() {
   console.log('Fixtures clicked!!!')
     fixturesHTML = "";
     var fix = "";
-    fixWeek = 1;
-    fixLeague = "North";
+    fixWeek = currentWeek;
+    fixLeague = "South";
 
-    for(var i=0; i < 8; i +=1){
-        fix = fixtures[i];
-        console.log(JSON.stringify(fixtures[i]));
+    for(var i=0; i < teamFixtures.length; i +=1){
+        fix = teamFixtures[i];
+
     //    console.log('fixtures week = '+fix.week+' fixLeague = ' + fixLeague);
-        if (fix.week == fixWeek && fixLeague == 'North'){
+        if (fix.week == fixWeek && fixLeague == 'South'){
             console.log('if logic detected!!')
             fixturesHTML += '<tr><td>' + fix.week + '</td></tr>';
             fixturesHTML += '<tr><td>' + fix.game1 + '</td></tr>';
@@ -104,14 +117,9 @@ function fixtures() {
             fixturesHTML += '<tr><td>' + fix.game3 + '</td></tr>';
             fixturesHTML += '<tr><td>' + fix.game4 + '</td></tr>';
         }
-
         document.getElementById('leagueTable').innerHTML = fixturesHTML;
     }
-
 }
-
-
-
 
 function compare(a,b) {
   if (a.points < b.points)
