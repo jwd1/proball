@@ -13,10 +13,10 @@
         <div class="container">
             <ul class="nav nav-pills nav-justified inverse">
                 <li role="presentation" class="active" onclick="nextTurn()"><a href="#">Turn</a></li>
-                <li role="presentation"><a href="#">Fixtures</a></li>
+                <li role="presentation" onclick="fixtures()"><a href="#">Fixtures</a></li>
                 <li role="presentation"><a href="#">Team</a></li>
-                <li role="presentation"><a href="#">North Leauge Table</a></li>
-                <li role="presentation"><a href="#">South Leauge Table</a></li>
+                <li role="presentation" onclick="nextTurn(1)"><a href="#">North Leauge Table</a></li>
+                <li role="presentation" onclick="nextTurn(2)"><a href="#">South Leauge Table</a></li>
             </ul>
       </div>
     </header>
@@ -26,201 +26,119 @@
       	<div class="c">
     			<div class="main">
 
-            <h3>Loremk ipsum!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div id="mainDisplay">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div id="leagueDisplay">
+                      <h3>A League</h3>
+                </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <table id="leagueTable" class="table-bordered table-condensed">
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Draws</th>
+                    <th>Losses</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>Points</th>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Metro City</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>10</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+
+                </table>
+
+            </div>
 
 
 
     							</div>
+
+
     			<div class="sb">
-            <div id="northLeague">
 
-                <h3>North League</h3>
+                <h3>Shangle!</h3>
 
-
-                <table id="northTable" class="table-bordered table-condensed">
-                    <th>Team</th>
-                    <th>Wins</th>
-                    <th>Draws</th>
-                    <th>Losses</th>
-                    <th>GF</th>
-                    <th>GA</th>
-                    <th>Points</th>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-
-                </table>
-
-            </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     			</div>
     			<div class="sb-2">
 
-            <div id="southLeague">
+              <h3>Ushgah!</h3>
 
-                <h3>South League</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                
-                <table  id = "southTable" class="table-bordered table-condensed">
-                    <th>Team</th>
-                    <th>Wins</th>
-                    <th>Draws</th>
-                    <th>Losses</th>
-                    <th>GF</th>
-                    <th>GA</th>
-                    <th>Points</th>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Metro City</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>7</td>
-                    </tr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                </table>
-
-            </div>
 
     			</div>
     		</div>

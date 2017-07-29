@@ -257,13 +257,13 @@ var teams = [
 },
 ]
 
-var = fixtures [
+var fixtures =  [
 {
   league: 'North',
   week: 1,
   game1: 'Orlean City vs Santos',
   game2: 'Virgin City vs Omacia',
-  game3: 'Mega City 2 vs Swirl City'
+  game3: 'Mega City 2 vs Swirl City',
   game4: 'Atlan City vs Mega City 2',
 },
 {
