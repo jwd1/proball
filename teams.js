@@ -256,3 +256,63 @@ var teams = [
     played: 'Virgin City',
 },
 ]
+
+var = fixtures [
+{
+  league: 'North',
+  week: 1,
+  game1: 'Orlean City vs Santos',
+  game2: 'Virgin City vs Omacia',
+  game3: 'Mega City 2 vs Swirl City'
+  game4: 'Atlan City vs Mega City 2',
+},
+{
+  league: 'North',
+  week: 2,
+  game1: 'Orlean City vs Omacia',
+  game2: 'Santos vs Swirl',
+  game3: 'Virgin City vs Mega City 1',
+  game4: 'Mega City 2 vs Atlan City',
+},
+{
+  league: 'North',
+  week: 3,
+  game1: 'Orlean City vs Swirl City',
+  game2: 'Omacia vs Mega City 1',
+  game3: 'Santos vs Atlan City',
+  game4: 'Virgin City vs Mega City 2',
+},
+{
+  league: 'North',
+  week: 4,
+  game1: 'Orlean City',
+  game2: 'Swirl City vs Atlan City',
+  game3: 'Omacia vs Mega City 2',
+  game4: 'Santos vs Virgin City',
+},
+{
+  leauge: 'North',
+  week: 5,
+  game1: 'Orlean City vs Atlan City',
+  game2: 'Mega City 2 vs Mega City 2',
+  game3: 'Swirl City vs Virgin city',
+  game4: 'Omacia vs Santos',
+},
+{
+  league: 'North',
+  week: 6,
+  game1: 'Orlean City vs Mega City 1',
+  game2: 'Atlan City vs Virgin City 2',
+  game3: 'Mega City 1 vs Santos',
+  game4: 'Swirl City vs Omacia',
+},
+{
+  league: 'North',
+  week: 7,
+  game1: 'Orlean City vs Virgin City',
+  game2: 'Mega city 2 vs Santos',
+  game3: 'Atlan City vs Omacia',
+  game4: 'Mega City 1 vs Swirl City',
+},
+
+]
